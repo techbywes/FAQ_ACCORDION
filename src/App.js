@@ -107,7 +107,7 @@ function App() {
         )}
 
         <button onClick={handleClick4}>
-        What If There Is A Problem With My Bike{" "}
+          What If There Is A Problem With My Bike{" "}
           <span> {showModal4 === true ? "-" : "+"} </span>
         </button>
         {showModal4 === true && (
@@ -131,8 +131,7 @@ function App() {
           </div>
         )}
         <button onClick={handleClick4}>
-        Care And Maintenance{" "}
-          <span> {showModal5 === true ? "-" : "+"} </span>
+          Care And Maintenance <span> {showModal5 === true ? "-" : "+"} </span>
         </button>
         {showModal5 === true && (
           <div className="modul_board" onClick={handleClick5}>

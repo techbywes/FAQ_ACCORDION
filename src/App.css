@@ -43,6 +43,7 @@ button:hover {
   background-color: #141516;
   border: 1px solid #01fffc;
   color: white;
+  transition: all 0.9s ease-in-out;
 }
 span {
   font-size: 1.6rem;
@@ -64,6 +65,7 @@ span {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.299);
 }
 .faq {
+  margin-bottom: -0.4rem;
   color: #ffffff;
   font-family: "Roboto", Sans-serif;
   font-size: 50px;
